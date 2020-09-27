@@ -15,7 +15,5 @@ function error=CostFunction(currentFilterPosition,desiredFilter_h)
     h1=abs(h);%approximating h array
     h2=abs(desiredFilter_h);
     diff = (h1 - h2).^2;%matrix multiply h1 and h2 and square each one
-    %error=mean(diff);%MSE error
-    result=sum(diff);%add each element of array and now result is a array having one element 
-    error=result.^0.5;%taking sqaure root 
+    error=mean(diff);%MSE error 
 end
