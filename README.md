@@ -1,7 +1,7 @@
 # DigitalFilterDesign
 Designing digital filter using evolutionary algorithm.
 
-Evolutionary algorithms are the algorithms which are based on biological evolution and try to mimic certain behaviours(depending on which algorithm you use) of organism to find most optimal solution for a patrticular algorithm. To know more about them,use [this link](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
+Evolutionary algorithms are the algorithms which are based on biological evolution and try to mimic certain behaviours(depending on which algorithm you use) of organism to find most optimal solution for a patrticular algorithm. To know more about them,use [this link](https://en.wikipedia.org/wiki/Evolutionary_algorithm).
 
 ## Particle Swarm Optimisation(PSO) Algorithm
 This algorithm is based on behaviour of animals which perform works in groups such as fish schooling, insect swarming, bird flocking etc.In this algorithm, each particle act as agent and has a position and velocity with which it moves towards optimal solution in search space(region in which optimum solution may lie). To learn more about PSO algorithm , use [this link](https://en.wikipedia.org/wiki/Particle_swarm_optimization).
@@ -10,6 +10,7 @@ This algorithm is based on behaviour of animals which perform works in groups su
 Conventionally, we are using two methods of filter designing:-
 
 **1)Window Technique:-** In this technique, we do not have accurate preside over cut-off frequencies and transition bandwidth.
+
 **2)Optimal Designing:-** The biggest problem with this technique is that they get stuck in local optima and have slow convergence speed.
 
 Due to problems, we shift our focus towards evolutionary algorithms which are capable of designing filters in a wide range. The code given in this repository demonstrate   filter design using Particle Swarm Optimisation.
