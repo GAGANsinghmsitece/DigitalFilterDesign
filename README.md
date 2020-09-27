@@ -1,5 +1,5 @@
 # DigitalFilterDesign
-Designing digital filter using evolutionary algorithm
+Designing digital filter using evolutionary algorithm.
 
 Evolutionary algorithms are the algorithms which are based on biological evolution and try to mimic certain behaviours(depending on which algorithm you use) of organism to find most optimal solution for a patrticular algorithm. To know more about them,use [this link](https://en.wikipedia.org/wiki/Evolutionary_algorithm)
 
